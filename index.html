@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact App</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.theme.default.css" />
+    <link rel="stylesheet" href="./main.css" />
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./node_modules/owl.carousel/dist/owl.carousel.js"></script>
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Welcome to Contact App</h1>
+            <input type="button" class="btn btn-primary" id="btnCreateContact" value="Create Contact" />
+        </div>
+        <div class="row d-none">
+            <div class="contact-app w-50">
+                <h3>Contact Form</h3>
+                <form>
+                    <div class="form-group w-50">
+                        <label>Firt Name</label>
+                        <input type="text" name="firstName" id="firstName" class="form-control" placeholder="Enter First Name" />
+                    </div>
+                    <div class="form-group w-50">
+                        <label>Last Name</label>
+                        <input type="text" name="lastName" id="lastName" class="form-control" placeholder="Enter Last Name" />
+                    </div>
+                    <div class="form-group w-50">
+                        <label>Contact Number</label>
+                        <input type="text" name="contactNum" id="contactNum" class="form-control" placeholder="Enter Contact Number" />
+                    </div>
+                    <input type="button" class="btn btn-primary" value="Submit" id="btnSubmit" />
+                </form>
+            </div>
+            <div class="contact-table mt-3 w-50">
+                <h3>Contacts List</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Contact Number</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="imge.jpeg" />
+                </div>
+                <div class="item">
+                    <img src="imge.jpeg" />
+                </div>
+                <div class="item">
+                    <img src="imge.jpeg" />
+                </div>
+                <div class="item">
+                    <img src="imge.jpeg" />
+                </div>
+                <div class="item">
+                    <img src="imge.jpeg" />
+                </div>
+                <div class="item">
+                    <img src="imge.jpeg" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
